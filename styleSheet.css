@@ -1,0 +1,81 @@
+/*sytles the header for my name*/
+h1{
+    text-align: center;
+    color: black;
+    font-size: 500%;
+    text-shadow: 4px 3px grey;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    
+}
+
+/*navigation bar main*/
+#nav {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 50%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  #nav li {
+    float: left;
+  }
+
+  /*text for nav bar*/
+  #nav a{
+    display:block;
+    text-align:center;
+    text-decoration:none;  
+  }
+
+  /*indivdual boxes*/
+  #nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+  }
+  /*when hovered on*/
+  #nav li a:hover {
+    background-color: black;
+  }
+
+  #about{
+    text-align: center;
+    margin-left: 30em;
+    margin-right: 30em;
+    font-size: 150%;
+  }
+
+  #projDescript{
+    text-align: center;
+    margin-left: 25em;
+    margin-right: 25em;
+    font-size: 150%;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+  }
+  
+  /*to center the images*/
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .centerSS{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  
