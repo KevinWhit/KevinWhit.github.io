@@ -1,81 +1,84 @@
 /*sytles the header for my name*/
 h1{
-    text-align: center;
-    color: black;
-    font-size: 500%;
-    text-shadow: 4px 3px grey;
+  text-align: center;
+  color: black;
+  font-size: 500%;
+  text-shadow: 4px 3px grey;
 }
 
 h2{
-    text-align: center;
-    color: black;
-    font-size: 200%;
-    text-decoration: underline;
-    text-decoration-color: grey;
-    
+  text-align: center;
+  color: black;
+  font-size: 200%;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  
 }
 
 /*navigation bar main*/
-#nav {
-    list-style-type: none;
-    margin: 0 auto;
-    width: 50%;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  #nav li {
-    float: left;
-  }
+.navbar{
+width: 100%;
+background-color: #555;
+overflow: auto;
+}
 
-  /*text for nav bar*/
-  #nav a{
-    display:block;
-    text-align:center;
-    text-decoration:none;  
-  }
+/*navigation links*/
+.navbar a{
+float: left;
+padding: 12px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+width: 31.5%;
+text-align: center;
+}
+/* Add a background color on mouse-over */
+.navbar a:hover {
+background-color: #000;
+}
+/* Style the current/active link */
+.navbar a.active {
+background-color:#0499c2;
+}
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+.navbar a {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: left; /* If you want the text to be left-aligned on small screens */
+}
+}
 
-  /*indivdual boxes*/
-  #nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 80px;
-    text-decoration: none;
-  }
-  /*when hovered on*/
-  #nav li a:hover {
-    background-color: black;
-  }
+#about{
+text-align: center;
+margin-left: 15%;
+margin-right: 15%;
+margin: 10 auto;
+font-size: 150%;
+}
 
-  #about{
-    text-align: center;
-    margin-left: 30em;
-    margin-right: 30em;
-    font-size: 150%;
-  }
+#projDescript{
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+margin: 10 auto;
+font-size: 150%;
+border-bottom: 1px solid #000;
+padding-bottom: 3px;
+}
 
-  #projDescript{
-    text-align: center;
-    margin-left: 25em;
-    margin-right: 25em;
-    font-size: 150%;
-    border-bottom: 1px solid #000;
-    padding-bottom: 3px;
-  }
-  
-  /*to center the images*/
-  .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
-  .centerSS{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
+/*to center the images*/
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+.centerSS{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+}
 
-  

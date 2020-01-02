@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="styleSheet.css">
+        <link rel="stylesheet" href="styleSheet.css">
     </head>
 
     
@@ -10,13 +10,23 @@
         <h1>Kevin Whitlock</h1>
 
         <!-- nav bar-->
-        <ul id="nav">
-            <li><a href="personalProjects.html">Personal Projects</a></li>
-            <li><a href="SchoolProjects.html">School Projects</a></li>
-            <li><a href="sourceCode/KevinWhitlockResume.pdf"download>Resume</a></li>
-            <li><a href="index.html">Home</a></li>
-        </ul>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a class="active" href="SchoolProjects.html">Projects</a>
+            <a href="sourceCode/KevinWhitlockResume.pdf"download>Resume</a>
+        </div>
+        <!--HealthPort-->
+        <h2>Health Port Hackathon Project</h2>
+        <p id="projDescript">
+            During the hackathon ConUHacks with a team of two others we developed a website that
+            allowed the user to book and organize all there appoinments with various health care 
+            practioners. It would send you a text message of upcoming appoinments. We used HTML,
+            CSS, NodeJS, and MongoDB to develop it.
+            <a href="https://devpost.com/software/healthport" class="center">View</a>
+        </p>
         
+
+
         <!--DND Project-->
         <h2>DND Object Oriented Programming Project</h2>
         <p id="projDescript">
